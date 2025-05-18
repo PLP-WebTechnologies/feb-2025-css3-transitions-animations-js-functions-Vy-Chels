@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive UI with Animations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h2>Interactive UI Elements</h2>
+    
+    <div class="preferences">
+      <h3>Theme Settings</h3>
+      <button id="themeToggle" class="btn">Toggle Dark Mode</button>
+      
+      <div class="color-picker">
+        <h3>Accent Color</h3>
+        <input type="color" id="accentColor" value="#007bff">
+      </div>
+    </div>
+
+    <div class="counter-section">
+      <h3>Click Counter</h3>
+      <div class="counter-display">
+        <span id="counter">0</span>
+      </div>
+      <button id="incrementBtn" class="btn">Increment</button>
+    </div>
+
+    <div class="animation-section">
+      <h3>Interactive Image</h3>
+      <div class="image-container">
+        <img src="image/pexels-cottonbro-6153354.jpg" id="animatedImage" alt="Interactive Image"/>
+      </div>
+    </div>
+
+    <p id="status" class="status-text"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
